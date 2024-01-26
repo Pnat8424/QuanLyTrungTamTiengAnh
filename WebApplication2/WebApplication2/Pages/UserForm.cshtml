@@ -1,0 +1,49 @@
+﻿@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    Layout = null;
+}
+
+@model UserFormModel
+
+<div class="container">
+    <form class="form-register" method="post" asp-action="Submit">
+        <div class="row align-items-center gy-3">
+            <div class="left-align">
+                <label class="">Đăng ký thông tin</label>
+            </div>
+            <div class="col-1">
+                <div class="row">
+                    <!-- Input fields -->
+                    <div class="col">
+                        <label class="form-label visually-hidden" for="form-reg-name">Họ và tên</label>
+                        <input class="form-control" id="form-reg-name" name="full_name" type="text" placeholder="Họ và tên" required />
+                    </div>
+                    <div class="col">
+                        <label class="form-label visually-hidden" for="form-reg-phonenumber">Số điện thoại</label>
+                        <input class="form-control phone-input" id="form-reg-phonenumber" name="phone" type="text" placeholder="Số điện thoại" required />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label class="form-label visually-hidden" for="form-reg-Email">Email</label>
+                        <input class="form-control email" id="form-reg-Email" name="email" type="email" placeholder="Email" required />
+                    </div>
+                    <div class="col">
+                        <label class="form-label visually-hidden" for="form-reg-work">Bạn hiện đang là?</label>
+                        <select class="form-select form-select-default age-options" id="form-reg-work" name="job" required>
+                            <option value="" selected disabled hidden>Lựa chọn</option>
+                            <option value="volvo">Học sinh cấp 2</option>
+                            <option value="saab">Học sinh cấp 3</option>
+                            <option value="mercedes">Sinh viên</option>
+                            <option value="audi">Người đi làm</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="button" type="submit">Tiếp tục</button>
+        </div>
+    </form>
+</div>

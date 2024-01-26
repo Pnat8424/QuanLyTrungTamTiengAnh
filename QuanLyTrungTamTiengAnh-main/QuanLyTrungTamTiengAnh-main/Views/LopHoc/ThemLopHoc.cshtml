@@ -1,0 +1,33 @@
+﻿@model List<MVC_Core_Quan_Ly_Trung_Tam_TA.DataBase.LopHoc>
+<div class="row container add-new">
+    <div class="title">Thêm mới khóa học</div>
+    <div class="data">
+        <form asp-action="ThemLopHoc" asp-controller="LopHoc" method="post">
+            <table>
+                <tr>
+                    <td class="col-md-3">Mã Lớp Học: </td>
+                    <td><input class="col-md-9" type="text" name="MaLH" /></td>
+                </tr>
+                <tr>
+                    <td class="col-md-3">Tên LH: </td>
+                    <td><input class="col-md-9" type="text" name="TenLH" /></td>
+                </tr>
+                <tr>
+                    <td class="col-md-3">MaKH: </td>
+                    <td><input class="col-md-9" type="number" name="MaKH" /></td>
+                </tr>
+                <tr>
+                    <td class="col-md-3">MaGV : </td>
+                    <td><input class="col-md-9" type="text" name="MaGV" /></td>
+                </tr>
+                <tr>
+                    <td class="col-md-3">MaHV : </td>
+                    <td><input class="col-md-9" type="text" name="MaHV" /></td>
+                </tr>
+
+
+                <tr><td colspan="2" class="btn"><button type="submit">Thêm</button></td></tr>
+            </table>
+        </form>
+    </div>
+</div>

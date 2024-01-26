@@ -1,0 +1,59 @@
+﻿@page
+@model SelectPageModel
+
+@{
+    ViewData["Title"] = "Select Course";
+}
+
+@{
+    var selectedCourseId = -1;
+    var showPopup = false;
+    var myArray = new[] {
+        new { Image = "~/toeic.jpg", Text = "Luyện thi Toeic 2 kỹ năng" },
+        new { Image = "~/toeic.jpg", Text = "Luyện thi Toeic 4 kỹ năng" },
+        new { Image = "~/toeic.jpg", Text = "Luyện thi VNU-EPT" },
+        new { Image = "~/toeic.jpg", Text = "Luyện thi IELTS" },
+        new { Image = "~/toeic.jpg", Text = "Tiếng anh giao tiếp" },
+        new { Image = "~/toeic.jpg", Text = "Tiếng anh cho người mất gốc" },
+        new { Image = "~/toeic.jpg", Text = "Tiếng anh thiếu nhi" }
+    };
+}
+
+<div style="display: flex; flex-direction: column; align-items: center; padding-left: 10px; padding-right: 10px;">
+    <div style="display: flex; flex-wrap: wrap;">
+        @foreach (var item in myArray.Select((value, index) => new { index, value }))
+        {
+            <div onclick="@($"handleClick({item.index})")" style="border: @((selectedCourseId == item.index) ? "5px solid red" : "2px solid black"); border-radius: 10px; padding: 10px; margin-left: 10px; margin-top: 10px; cursor: pointer; flex-basis: 23%;">
+                <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
+                    <img src="~/toeic.jpg" alt="Ảnh khóa học" style="width: 100%;" />
+                    <p style="margin-top: 10px; font-size: 18px;">@item.value.Text</p>
+                </div>
+            </div>
+        }
+    </div>
+    <form action="/Index">
+        <button type="submit" style="font-size: 20px; margin-top: 10px; width: 150px; height: 50px; border-radius: 10px;" onclick="handleButtonClick()">Lựa chọn</button>
+    </form>
+    @if (showPopup)
+    {
+        <div>
+            Hãy lựa chọn một khoá học trước khi chuyển tiếp
+        </div>
+    }
+</div>
+
+<script>
+    var showPopup = false;
+
+    function handleClick(id) {
+        console.log(id);
+    }
+
+    function handleButtonClick() {
+        if (selectedCourseId !== null) {
+            // return <AnotherComponent />;
+        } else {
+            showPopup = true;
+        }
+    }
+</script>

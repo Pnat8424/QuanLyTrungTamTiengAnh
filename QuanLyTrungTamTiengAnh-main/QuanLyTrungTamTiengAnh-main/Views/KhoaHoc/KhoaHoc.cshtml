@@ -1,0 +1,42 @@
+﻿@model List<MVC_Core_Quan_Ly_Trung_Tam_TA.DataBase.KhoaHoc>
+
+<div class="container">
+    <div class="row list_container">
+        <div class="title col-12">Danh sách khóa học </div>
+        <div class="col-md-6">
+            <button onclick="location.href='@Url.Action("ThemKhoaHoc", "KhoaHoc")'">
+                Thêm
+            </button>
+
+
+        <div>Tìm theo mã khoá học :  </div>
+        <div class="data_grid col-12">
+            <table>
+                <tr>
+                    <th>Mã Khoá Học</th>
+                    <th>Tên Khoá Học</th>
+                    <th>Ngày Bắt Đầu</th>
+                    <th>Ngày Kết Thúc</th>
+                    <th>Học Phí</th>
+                </tr>
+                @{
+                    if (Model != null && Model.Any())
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.MaKh</td>
+                                <td>@item.TenKh</td>
+                                <td>@item.NgayBd</td>
+                                <td>@item.NgayKt</td>
+                                <td>@item.HocPhi</td>
+                            </tr>
+                        }
+                    }
+
+                }
+            </table>
+        </div>
+
+    </div>
+</div>

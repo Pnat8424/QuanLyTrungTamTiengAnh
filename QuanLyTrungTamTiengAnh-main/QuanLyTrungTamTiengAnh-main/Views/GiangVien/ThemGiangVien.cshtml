@@ -1,0 +1,33 @@
+﻿@model List<MVC_Core_Quan_Ly_Trung_Tam_TA.DataBase.BaoCaoHv>
+<div class="row container add-new">
+    <div class="title">Thêm mới giảng viên</div>
+    <div class="data">
+        <form asp-action="ThemGiangVien" asp-controller="GiangVien" method="post">
+            <table>
+                <tr>
+                    <td class="col-md-3">Họ và Tên: </td>
+                    <td><input class="col-md-9" type="text" name="TenGV" /></td>
+                </tr>
+                <tr>
+                    <td class="col-md-3">Sđt: </td>
+                    <td><input class="col-md-9" type="number" name="Sdt" /></td>
+                </tr>
+                <tr>
+                    <td class="col-md-3">Địa chỉ: </td>
+                    <td><input class="col-md-9" type="text" name="Diachi" /></td>
+                </tr>
+                <tr>
+                    <td class="col-md-3">Trình độ : </td>
+                    <td><input class="col-md-9" type="text" name="Trinhdo" /></td>
+                </tr>
+                <tr>
+                    <td class="col-md-3">Ngày làm việc: </td>
+                    <td><input class="col-md-9" type="date" name="Ngaylamviec" /></td>
+                </tr>
+
+
+                <tr><td colspan="2" class="btn"><button type="submit">Thêm</button></td></tr>
+            </table>
+        </form>
+    </div>
+</div>

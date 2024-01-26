@@ -1,0 +1,43 @@
+﻿@model List<MVC_Core_Quan_Ly_Trung_Tam_TA.DataBase.HocVien>
+
+<div class="container">
+    <div class="row list_container">
+        <div class="title col-12">Danh sách học viên </div>
+        <div class="row">
+            <div class="col-md-6">
+                Tìm theo mã học viên :
+            </div>
+   
+        </div>
+        <div class="data_grid col-12">
+            <table>
+                <tr>
+                    <th>Mã HV</th>
+                    <th>Họ và tên</th>
+                    <th>Giới tính</th>
+                    <th>Ngày sinh</th>
+                    <th>Địa chỉ</th>
+                    <th>Lớp học</th>
+                </tr>
+                @{
+                    if (Model != null && Model.Any())
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.MaHv</td>
+                                <td>@item.TenHv</td>
+                                <td>@item.Gioitinh</td>
+                                <td>@item.Ngaysinh</td>
+                                <td>@item.Diachi</td>                             
+                                <td>@item.MaLh</td>
+                            </tr>
+                        }
+                    }
+
+                }
+            </table>
+        </div>
+
+    </div>
+</div>
