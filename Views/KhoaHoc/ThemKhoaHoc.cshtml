@@ -1,0 +1,33 @@
+﻿@model List<MVC_Core_Quan_Ly_Trung_Tam_TA.DataBase.KhoaHoc>﻿
+<div class="row container add-new">
+    <div class="title">Thêm mới khóa học</div>
+    <div class="data">
+        <form asp-action="ThemKhoaHoc" asp-controller="KhoaHoc" method="post">
+            <table>
+                <tr>
+                    <td class="col-md-3">Mã Khóa học: </td>
+                    <td><input class="col-md-9" type="text" name="MaKH" /></td>
+                </tr>
+                <tr>
+                    <td class="col-md-3">Tên Khóa học: </td>
+                    <td><input class="col-md-9" type="text" name="TenKH" /></td>
+                </tr>
+                <tr>
+                    <td class="col-md-3">Ngày bắt đầu: </td>
+                    <td><input class="col-md-9" type="date" name="NgayBD" /></td>
+                </tr>
+                <tr>
+                    <td class="col-md-3">Ngày kết thúc : </td>
+                    <td><input class="col-md-9" type="date" name="NgayKT" /></td>
+                </tr>
+                <tr>
+                    <td class="col-md-3">Học phí : </td>
+                    <td><input class="col-md-9" type="number" name="HP" /></td>
+                </tr>
+
+
+                <tr><td colspan="2" class="btn"><button type="submit">Thêm</button></td></tr>
+            </table>
+        </form>
+    </div>
+</div>

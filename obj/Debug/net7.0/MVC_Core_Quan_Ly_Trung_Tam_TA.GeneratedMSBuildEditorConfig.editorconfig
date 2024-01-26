@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MVC_Core_Quan_Ly_Trung_Tam_TA
+build_property.RootNamespace = MVC_Core_Quan_Ly_Trung_Tam_TA
+build_property.ProjectDir = /Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/BaoCaoHocVien/BaoCaoHocVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFvQ2FvSG9jVmllbi9CYW9DYW9Ib2NWaWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/BaoCaoHocVien/ThemBaoCao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFvQ2FvSG9jVmllbi9UaGVtQmFvQ2FvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/GhiDanh/GhiDanh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2hpRGFuaC9HaGlEYW5oLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/GiangVien/GiangVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2lhbmdWaWVuL0dpYW5nVmllbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/GiangVien/ThemGiangVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2lhbmdWaWVuL1RoZW1HaWFuZ1ZpZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/HocVien/HocVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9jVmllbi9Ib2NWaWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/KhoaHoc/KhoaHoc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2hvYUhvYy9LaG9hSG9jLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/KhoaHoc/ThemKhoaHoc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2hvYUhvYy9UaGVtS2hvYUhvYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/LopHoc/LopHoc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9wSG9jL0xvcEhvYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/LopHoc/ThemLopHoc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9wSG9jL1RoZW1Mb3BIb2MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/Shared/FootPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Zvb3RQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/Shared/_HeadPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19IZWFkUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/Shared/_LayoutMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRNYXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/Shared/_Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19NZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-786vbx39hk
+
+[/Users/pnatvtn/Documents/Zalo Received Files/MVC_QLTTTA/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zb7ygd0fd8

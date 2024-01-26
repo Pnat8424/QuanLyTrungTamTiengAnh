@@ -1,0 +1,33 @@
+﻿@model List<MVC_Core_Quan_Ly_Trung_Tam_TA.DataBase.GhiDanh>
+<div class="row container add-new">
+    <div class="title col-12">Ghi Danh</div>
+    <div class="data">
+        <form asp-action="GhiDanh" asp-controller="GhiDanh" method="post">
+            <table>
+                <tr>
+                    <td class="col-md-3">Họ và Tên: </td>
+                    <td><input class="col-md-9" type="text" name="HoTen" /></td>
+                </tr>
+                <tr>
+                    <td class="col-md-3">Sđt: </td>
+                    <td><input class="col-md-9" type="number" name="Sdt" /></td>
+                </tr>
+                <tr>
+                    <td class="col-md-3">Ngày sinh: </td>
+                    <td><input class="col-md-9" type="date" name="Ngaysinh" /></td>
+                </tr>
+                <tr>
+                    <td class="col-md-3">Địa chỉ : </td>
+                    <td><input class="col-md-9" type="text" name="Diachi" /></td>
+                </tr>
+                <tr>
+                <div class="col">
+                    <td class="col-md-3">Khóa học</td>
+                    <td><input class="col-md-9" type="text" name="KhoaHoc" /></td>
+                </tr>
+
+                <tr><td colspan="2" class="btn"><button type="submit">Đăng ký</button></td></tr>
+            </table>
+        </form>
+    </div>
+</div>

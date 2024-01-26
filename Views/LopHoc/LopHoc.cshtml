@@ -1,0 +1,40 @@
+﻿@model List<MVC_Core_Quan_Ly_Trung_Tam_TA.DataBase.LopHoc>
+<div class="container">
+    <div class="row list_container">
+        <div class="title col-12">Danh sách lớp học </div>
+        <button onclick="location.href='@Url.Action("ThemLopHoc", "LopHoc")'">
+            Thêm
+        </button>
+
+        <div>Tìm theo mã lớp học :  </div>
+        <div class="data_grid col-12">
+            <table>
+                <tr>
+                    <th>Mã LH</th>
+                    <th>Tên LH</th>
+                    <th>Ma HV</th>
+                    <th>Mã GV</th>
+                    <th>Mã KH</th>
+                </tr>
+                @{
+                    if (Model != null && Model.Any())
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.MaLh</td>
+                                <td>@item.TenLh</td>
+                                <td>@item.MaKh</td>
+                                <td>@item.MaHv</td>
+                                <td>@item.MaGv</td>
+
+                            </tr>
+                        }
+                    }
+
+                }
+            </table>
+        </div>
+
+    </div>
+</div>
